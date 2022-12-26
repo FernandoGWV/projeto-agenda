@@ -8,7 +8,6 @@ const flash = require('connect-flash')
 const routes = require('./routes')
 const path = require('path')
 const cookieParser = require('cookie-parser')
-
 const helmet = require('helmet')
 const csrf = require('csurf')
 const {meuMiddleWare, checkCsrfError, csfrMiddleware} = require('./src/middlewares/middleware')
